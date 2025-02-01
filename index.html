@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter app</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contanier">
+        <div class="header">
+            <h3>Metric/imperial Unit Conversion</h3>
+            <input type="text" id="input-el" required min="1" max="15">
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div class="main">
+            <div class="box">
+                <h6>Length(Meter/Feet)</h6>
+                <p id="meter"></p>
+            </div>
+            <div class="box">
+                <h6>Volume(Liters/Gallons)</h6>
+                <p id="liters"></p>
+            </div>
+            <div class="box">
+                <h6>Mass(kilograms/Pounds)</h6>
+                <p id="kilograms"></p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
